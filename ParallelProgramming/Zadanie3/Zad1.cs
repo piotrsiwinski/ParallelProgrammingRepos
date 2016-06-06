@@ -82,13 +82,13 @@ namespace Zadanie3
 
         }
     }
-    class Program
+    class Zad1
     {
         static void Main(string[] args)
         {
-            ProducerConsumer producerConsumer = new ProducerConsumer(10, "a");
-
-
+            Console.WriteLine("Type your password");
+            var password = Console.ReadLine();
+            ProducerConsumer producerConsumer = new ProducerConsumer(100, password);
             Console.ReadLine();
         }
     }
