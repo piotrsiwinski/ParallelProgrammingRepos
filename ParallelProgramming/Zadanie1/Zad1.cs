@@ -10,7 +10,7 @@ namespace Zadanie1
 {
     class Zad1
     {
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -21,6 +21,6 @@ namespace Zadanie1
             Console.WriteLine($"Time elapsed: {stopwatch.ElapsedMilliseconds}");
 
             Console.ReadLine();
-        }*/
+        }
     }
 }
