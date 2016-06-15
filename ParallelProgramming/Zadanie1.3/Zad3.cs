@@ -133,7 +133,7 @@ namespace Zadanie1
 
     public class Zad3
     {
-       /* public static void Main(string[] args)
+       public static void Main(string[] args)
         {
             GraphGnp gnp = new GraphGnp(10);
            
@@ -146,6 +146,6 @@ namespace Zadanie1
             Console.WriteLine($"Sum of edges sequentially {gnp.CountEdgesSync()}");
             Console.WriteLine($"Sum of edges using threads {gnp.CountEgdesAsync()}");
             Console.ReadLine();
-        }*/
+        }
     }
 }

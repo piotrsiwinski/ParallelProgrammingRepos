@@ -135,13 +135,13 @@ namespace Zadanie1
     {
         public static void Main(string[] args)
         {
-            GraphGnp gnp = new GraphGnp(10);
+            Gnp gnp = new Gnp(10);
 
             gnp.GenerateGnpSync(1);
-            gnp.ShowGraph();
+            //gnp.ShowGraph();
             Console.WriteLine();
             gnp.GenerateGnpAsync(1);
-            gnp.ShowGraph();
+            //gnp.ShowGraph();
 
             Console.ReadLine();
         }
